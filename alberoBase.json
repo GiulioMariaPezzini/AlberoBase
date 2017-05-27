@@ -1,0 +1,298 @@
+[
+    {
+    "ID": "SETTINGS",
+    "type": "SETTINGS",
+    "output_format": "null",
+    "settings": {
+      "facebook": {
+        "page_id": "518326931688343",
+        "token": "EAADEuDn2iEsBAC3NhTdwYakZBBXcFvImnXPrcSm6k3SmBU3105xgf39vjbapeZBHbeHlhv04hRmiBcA6bZCm4NpGWDlntLdjKxeR3VlucmgZB7ivGZAbtuymrPZC8LxIUVtFVUL6FZB7lMZCuPSlHU4ow04vZBFW8OZCiMpzw4IZAmoUQZDZD",
+        "get_started": {
+          "greeting_text": [
+            {
+              "locale": "default",
+              "text": "Welcome {{user_first_name}}, this is the Italian BuyForce chatbot!"
+            },
+            {
+              "locale": "it_IT",
+              "text": "Ciao {{user_first_name}}, benvenuto in BuyForce!"
+            }
+          ]
+        }
+      }
+    },
+    "blacklist": {
+      "active": true,
+      "first_message": "Mi dispiace ma hai usato un linguaggio proibito in questo chatbot!",
+      "second_message": "Non puoi contattarmi perché sei stato bloccato! Riprova più tardi.",
+      "filename": "http://allindustries.it/talkforce/blacklist.txt"
+    },
+    "inactivity": {
+      "active": false,
+      "timeout": 30,
+      "out_vertex": "INACTIVE"
+    },
+    "chatbot": {
+      "active": true,
+      "locale": "Europe/Rome",
+      "chatbot_closure_message": "Mi dispiace ma al momento siamo chiusi! Riprova più tardi, grazie.",
+      "inactivity_periods": {
+        "active": false,
+        "hours": {
+          "1": [
+            {
+              "from": "9:00",
+              "to": "10:00"
+            },
+            {
+              "from": "16:00",
+              "to": "16:09"
+            }
+          ],
+          "5": [
+            {
+              "from": "17:43",
+              "to": "18:20"
+            },
+            {
+              "from": "16:00",
+              "to": "16:15"
+            }
+          ]
+        },
+        "period_message": "Sono spiacente ma in questo orario non rispondo al pubblico..."
+      }
+    }
+    }, {
+        "ID": "FILTER",
+        "type": "FILTER",
+        "expected_format": "message",
+        "output_format": "message",
+        "question": "",
+        "error_message": "",
+        "sorter": [
+          {
+            "exit_vertex": "TERMINATOR",
+            "tag": "",
+            "alive": true,
+            "sentences": [
+              "termina",
+              "stop"
+            ]
+          }
+        ],
+        "database_field": "null",
+        "database_field_tag": "null"
+    }, {
+        "commento": "Necessario per memorizzare l'ID dell'ecommerce",
+        "ID": "V0",
+        "type": "SAVE",
+        "output_format": "message",
+        "next_vertex": "V1",
+        "key": "ID_ecommerce",
+        "value": "1"
+    }, {
+        "ID": "TERMINATOR",
+        "type": "TERMINATOR",
+        "output_format": "message",
+        "next_vertex": "V0"
+    }, {
+        "ID": "V1",
+        "type": "AUTO",
+        "expected_format": "message",
+        "output_format": "message",
+        "error_message": "Ops, qualcosa è andato storto! Ci scusiamo per il disagio.",
+        "timeout": 5,
+        "external_call": true,
+        "post_link": "http://localhost/getName.php",
+        "next_vertex": "V2",
+        "post_fields": [
+            "_info"
+        ],
+        "expected_fields": {
+            "first-name": "FIRSTNAME"
+        }
+    }, {
+        "ID": "V2",
+        "type": "SAVE",
+        "output_format": "message",
+        "next_vertex": "V3",
+        "key": "MORE",
+        "value": "0"
+    }, {
+        "ID": "V3",
+        "type": "ENDPOINT",
+        "output_format": "message",
+        "end": false,
+        "message": "Ciao #_FIRSTNAME_#, benvenuto sul nostro ecommerce",
+        "next_vertex": "V4"
+    },
+    
+    {
+        "commento": "Necessario per memorizzare l'ID dell'ecommerce",
+        "ID": "N0",
+        "type": "SAVE",
+        "output_format": "message",
+        "next_vertex": "N1",
+        "key": "ID_ecommerce",
+        "value": "1"
+    }, {
+        "ID": "N1",
+        "type": "AUTO",
+        "expected_format": "message",
+        "output_format": "message",
+        "error_message": "Ops, qualcosa è andato storto! Ci scusiamo per il disagio.",
+        "timeout": 5,
+        "external_call": true,
+        "post_link": "http://localhost/getName.php",
+        "next_vertex": "N2",
+        "post_fields": [
+            "_info"
+        ],
+        "expected_fields": {
+            "first-name": "FIRSTNAME"
+        }
+    }, {
+        "ID": "N2",
+        "type": "SAVE",
+        "output_format": "message",
+        "next_vertex": "N3",
+        "key": "MORE",
+        "value": "0"
+    }, {
+        "ID": "N3",
+        "type": "HYBRID",
+        "expected_format": "message",
+        "output_format": "hybrid",
+        "question": "Desideri effettuare una nuova ricerca?",
+        "error_message": "La risposta non è valida.\nDesideri effettuare una nuova altro?",
+        "max_attempts": {
+            "number_attempts": 3,
+            "redirect_vertex": "V0",
+            "error_message": "Hai raggiunto il numero di tentativi massimi consentiti."
+        },
+        "sorter": [{
+            "exit_vertex": "V4",
+            "tag": "tag1",
+            "sentence": "restart"
+        }],
+        "database_field": "null",
+        "database_field_tag": "null"
+    },
+    
+    {
+        "ID": "V4",
+        "type": "AUTO",
+        "expected_format": "message",
+        "output_format": "message",
+        "error_message": "Ops, qualcosa è andato storto! Ci scusiamo per il disagio.",
+        "timeout": 5,
+        "external_call": true,
+        "post_link": "http://localhost/utility/ecommerce/categories_card.php",
+        "next_vertex": "V5",
+        "post_fields": [
+            "ID_ecommerce",
+            "MORE"
+        ],
+        "expected_fields": {
+            "CATEGORIES": "CATEGORIES",
+            "MORE": "MORE"
+        }
+    }, {
+        "ID": "V5",
+        "type": "CARD",
+        "expected_format": "message",
+        "output_format": "card",
+        "dynamic": "1",
+        "end": false,
+        "blocking": true,
+        "question": "Scegli una delle categorie disponibili",
+        "error_message": "Purtroppo non ho capito quello che vuoi fare.",
+        "cards": "#_CATEGORIES_#",
+        "default_vertex": "N0",
+        "database_field": "null"
+    },
+    
+    {
+        "ID": "V6",
+        "type": "SAVE",
+        "output_format": "message",
+        "next_vertex": "V7",
+        "key": "MORE",
+        "value": "0"
+    }, {
+        "ID": "V7",
+        "type": "AUTO",
+        "expected_format": "message",
+        "output_format": "message",
+        "error_message": "Ops, qualcosa è andato storto! Ci scusiamo per il disagio.",
+        "timeout": 5,
+        "external_call": true,
+        "post_link": "http://localhost/utility/ecommerce/subcategories_card.php",
+        "next_vertex": "V8",
+        "post_fields": [
+            "ID_ecommerce",
+            "MORE",
+            "V5_payload"
+        ],
+        "expected_fields": {
+            "SUBCATEGORIES": "SUBCATEGORIES",
+            "MORE": "MORE"
+        }
+    }, {
+        "ID": "V8",
+        "type": "CARD",
+        "expected_format": "message",
+        "output_format": "card",
+        "dynamic": "1",
+        "end": false,
+        "blocking": true,
+        "question": "Scegli una delle sottocategorie disponibili",
+        "error_message": "Purtroppo non ho capito quello che vuoi fare.",
+        "cards": "#_SUBCATEGORIES_#",
+        "default_vertex": "N0",
+        "database_field": "null"
+    },
+    
+    {
+        "ID": "V9",
+        "type": "SAVE",
+        "output_format": "message",
+        "next_vertex": "V10",
+        "key": "MORE",
+        "value": "0"
+    }, {
+        "ID": "V10",
+        "type": "AUTO",
+        "expected_format": "message",
+        "output_format": "message",
+        "error_message": "Ops, qualcosa è andato storto! Ci scusiamo per il disagio.",
+        "timeout": 5,
+        "external_call": true,
+        "post_link": "http://localhost/utility/ecommerce/product_card.php",
+        "next_vertex": "V11",
+        "post_fields": [
+            "ID_ecommerce",
+            "MORE",
+            "V8_payload"
+        ],
+        "expected_fields": {
+            "PRODUCTS": "PRODUCTS",
+            "MORE": "MORE"
+        }
+    }, {
+        "ID": "V11",
+        "type": "CARD",
+        "expected_format": "message",
+        "output_format": "card",
+        "dynamic": "1",
+        "end": false,
+        "blocking": false,
+        "question": "Scegli il prodotto che cerchi",
+        "error_message": "Purtroppo non ho capito quello che vuoi fare.",
+        "cards": "#_PRODUCTS_#",
+        "default_vertex": "N0",
+        "database_field": "null"
+    }
+
+]

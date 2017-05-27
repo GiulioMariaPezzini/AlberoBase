@@ -1,0 +1,236 @@
+{
+	"categories": [{
+		"image": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/05\/elettronica-copertina.jpg",
+		"number_products": 4,
+		"name": "accessori",
+		"link": "http:\/\/ecommerce.allindustries.it\/wp-json\/wc\/v1\/products\/categories\/20",
+		"description": "Troverai tutti gli accessori per l'elettronica!",
+		"id": 20
+	}, {
+		"image": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/04\/elettronica.jpg",
+		"number_products": 10,
+		"name": "Elettronica",
+		"link": "http:\/\/ecommerce.allindustries.it\/wp-json\/wc\/v1\/products\/categories\/17",
+		"description": "Categoria generica del mondo dell'elettronica",
+		"id": 17
+	}],
+	"subcategories": [{
+		"parent": 18,
+		"image": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/05\/acc-smartphone.jpg",
+		"number_products": 2,
+		"name": "Accessori smathphone",
+		"link": "http:\/\/ecommerce.allindustries.it\/wp-json\/wc\/v1\/products\/categories\/21",
+		"description": "Tutti gli accessori per i vostri smartphone!",
+		"id": 21
+	}, {
+		"parent": 17,
+		"image": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/04\/computer.jpg",
+		"number_products": 2,
+		"name": "Computer",
+		"link": "http:\/\/ecommerce.allindustries.it\/wp-json\/wc\/v1\/products\/categories\/19",
+		"description": "Sottocategoria computer",
+		"id": 19
+	}, {
+		"parent": 17,
+		"image": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/04\/tel.jpg",
+		"number_products": 6,
+		"name": "Smartphone",
+		"link": "http:\/\/ecommerce.allindustries.it\/wp-json\/wc\/v1\/products\/categories\/18",
+		"description": "Questa sottocategoria riguarda il mondo dei smartphone",
+		"id": 18
+	}],
+	"products": [{
+		"short_description": "Tribe Disney Star Wars Darth Vader (Dart Fener) Chiavetta USB da 16 GB Pendrive Memoria USB Flash Drive 2.0 Memory Stick, Idee Regalo Originali, Figurine 3D, Archiviazione Dati USB Gadget in PVC con Portachiavi \u2013 Nero",
+		"purchasable": true,
+		"images": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/05\/darth-vader.jpg",
+		"price": 24.99,
+		"name": "Darth Vader Chiavetta USB da 16 GB",
+		"link": "http:\/\/ecommerce.allindustries.it\/prodotto\/darth-vader-chiavetta-usb-da-16-gb\/",
+		"description": "Chiavetta USB 2.0 con memoria da 16 GB ispirata ai personaggi Star Wars. Stupisci i tuoi amici con queste chiavette usb originali. Compagno ideale su un portachiavi. La penna USB memorizza, conserva e trasferisce in modo affidabile file di tutti i formati, foto e video. Porta sempre con te questa memoria usb. Memory stick compatibile con i sistemi Windows, Linux e Mac, realizzata con materiale resistente in gomma. Disponibili in vari modelli. Chiavi usb pensate per ogni età. Gadget originale, perfetto come idea regalo: questa penna USB da collezione fa parte di una linea dedicata ai personaggi Star Wars. Chiavette usb particolari per essere riconoscibile e unico. Novità: pen drive (gadget) resistente in gomma, prodotto di informatica in licenza.",
+		"id": 70,
+		"categories": [{
+			"name": "accessori",
+			"id": 20
+		}, {
+			"name": "Elettronica",
+			"id": 17
+		}],
+		"stock": true,
+		"on_sale": false,
+		"status": "publish"
+	}, {
+		"short_description": "Tribe Disney Star Wars C3PO Chiavetta USB da 8 GB Pendrive Memoria USB Flash Drive 2.0 Memory Stick, Idee Regalo Originali, Figurine 3D, Archiviazione Dati USB Gadget in PVC con Portachiavi \u2013 Oro",
+		"purchasable": true,
+		"images": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/05\/C3PO.jpg",
+		"price": 12.99,
+		"name": "C3PO Chiavetta USB",
+		"link": "http:\/\/ecommerce.allindustries.it\/prodotto\/c3po-chiavetta-usb\/",
+		"description": "Chiavetta USB 2.0 con memoria da 8 GB ispirata ai personaggi Star Wars. Compagno ideale su un portachiavi. La penna USB Star Wars memorizza, conserva e trasferisce in modo affidabile file di tutti i formati, foto e video. Memory stick compatibile con i sistemi Windows, Linux e Mac, realizzata con materiale resistente in gomma. Disponibili in vari modelli. Gadget originale, perfetto come idea regalo: questa penna USB da collezione fa parte di una linea dedicata ai personaggi della saga Star Wars Novità: gadget resistente in gomma, prodotto di informatica in licenza. Garanzia di 24 mesi.",
+		"id": 68,
+		"categories": [{
+			"name": "accessori",
+			"id": 20
+		}, {
+			"name": "Elettronica",
+			"id": 17
+		}],
+		"stock": true,
+		"on_sale": false,
+		"status": "publish"
+	}, {
+		"short_description": "Huawei P10 Smartphone, 64 GB, Nero",
+		"purchasable": true,
+		"images": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/05\/Huawei.jpg",
+		"price": 515.0,
+		"name": "Huawei P10",
+		"link": "http:\/\/ecommerce.allindustries.it\/prodotto\/huawei-p10\/",
+		"description": "Sistema Operativo: Android 7 Nougat Fotocamera: 20 MP mono +12 MP RGB, F2.2, stabilizzatore, doppio flash, autofocus laser, zoom ibrido 2x Memoria: 64 GB espandibile con MicroSD da 256 GB",
+		"id": 66,
+		"categories": [{
+			"name": "Smartphone",
+			"id": 18
+		}],
+		"stock": true,
+		"on_sale": false,
+		"status": "publish"
+	}, {
+		"short_description": "Asus ZenFone 3 Smartphone, Display da 5.2\u2033, Memoria Interna da 64 GB, 4 GB RAM, Dual-SIM, Nero [Italia]",
+		"purchasable": true,
+		"images": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/05\/asus.jpg",
+		"link": "http:\/\/ecommerce.allindustries.it\/prodotto\/asus-zenfone-3\/",
+		"description": "Processore Qualcomm Snapdragon 625, Octa-Core, 2 GHz Schermo 5.2\" IPS Full HD, Gorilla glass 3 Android Marshmallow; non brandizato Fotocamera posteriore 16 MP e frontale 8 MP Dual-SIM",
+		"price": 369.0,
+		"reduction_price": [{
+			"from": "2017-05-01",
+			"to": "2017-05-28",
+			"sale_price": 308.0,
+			"reduction_perc": 16.53116531165312
+		}],
+		"name": "Asus ZenFone 3",
+		"id": 63,
+		"categories": [{
+			"name": "Smartphone",
+			"id": 18
+		}],
+		"stock": true,
+		"on_sale": true,
+		"status": "publish"
+	}, {
+		"short_description": "Arduino \u2013 k010007 Original Starter Kit (manuale in Italiano)",
+		"purchasable": true,
+		"images": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/05\/arduino.jpg",
+		"link": "http:\/\/ecommerce.allindustries.it\/prodotto\/arduino-original-starter-kit\/",
+		"description": "ARDUINO STARTER KIT ORIGINALE CON LIBRO 15 PROGETTI in ITALIANO Imparare a usare ARDUINO Originale ARDUINO (non è un clone) Per inventare e sperimentare, divertendosi",
+		"price": 80.05,
+		"reduction_price": [{
+			"from": "2017-05-01",
+			"to": "2017-05-19",
+			"sale_price": 79.9,
+			"reduction_perc": 0.18738288569642908
+		}],
+		"name": "Arduino original starter kit",
+		"id": 61,
+		"categories": [{
+			"name": "accessori",
+			"id": 20
+		}],
+		"stock": true,
+		"on_sale": true,
+		"status": "publish"
+	}, {
+		"short_description": "20000mAh Caricabatterie Portatile Coolreall® Power Bank Batteria Esterna 3 porte USB per iPhone, iPad, Samsung, Huawei, Nexus, HTC e altro smartphone, tablets \u2013 (Nero)",
+		"purchasable": true,
+		"images": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/05\/pw.jpg",
+		"link": "http:\/\/ecommerce.allindustries.it\/prodotto\/power-bank\/",
+		"description": "Grande capacità: la batteria esterna da 20000mAh è compatibile con tutti i dispositivi Apple, Samsung e la maggiore parte degli Smartphone e tablet, è in grado di caricare un iPhone 7 o iPhone 6 circa 8 volte, un Galaxy Note4 circa 5 volte o un iPad Mini 3 volte. Uscita 2.1A: si possono ricaricare contemporaneamente 3 dispositivi alla massima velocità. Sistema di protezione:con la tecnologia intelligente multi-protezioni-CI, il power bank Coolreall fornisce una maggior sicurezza, è infatti in grado di spegnersi automaticamente se rileva un corto circuito o un sovraccarico. Design unico: 4 spie LED integrate indicanti la carica residua, mini cavo incluso pratico da portare in viaggio. La confezione include: 1* 20000mAh caricabatterie portatile, 1* cavo micro USB.",
+		"price": 25.99,
+		"reduction_price": [{
+			"from": "2017-05-01",
+			"to": "2017-06-29",
+			"sale_price": 20.99,
+			"reduction_perc": 19.23816852635629
+		}],
+		"name": "Power Bank",
+		"id": 59,
+		"categories": [{
+			"name": "Accessori smathphone",
+			"id": 21
+		}, {
+			"name": "Smartphone",
+			"id": 18
+		}],
+		"stock": true,
+		"on_sale": true,
+		"status": "publish"
+	}, {
+		"short_description": "Il nuovo MacBook Pro è più sottile, leggero e potente che mai. E porta con sé una novità chiamata Touch Bar: un modo rivoluzionario di usare il Mac",
+		"purchasable": true,
+		"images": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/05\/mbp.jpg",
+		"price": 3299.0,
+		"name": "MacBook Pro 15\"",
+		"link": "http:\/\/ecommerce.allindustries.it\/prodotto\/57\/",
+		"description": "Il nuovo MacBook Pro è più sottile, leggero e potente che mai. E porta con sé una novità chiamata Touch Bar: un modo rivoluzionario di usare il Mac. Touch Bar e Touch ID Processore 2,7GHz Archiviazione 512GB Processore Intel Core i7 quad-core a 2,7GHz Turbo Boost fino a 3,6GHz 16GB di memoria a 2133MHz Unità SSD PCIe da 512GB1 Radeon Pro 455 con 2GB di memoria Quattro porte Thunderbolt 3 Touch Bar e Touch ID",
+		"id": 57,
+		"categories": [{
+			"name": "Computer",
+			"id": 19
+		}],
+		"stock": true,
+		"on_sale": false,
+		"status": "publish"
+	}, {
+		"short_description": "ascsxc<c<",
+		"purchasable": true,
+		"images": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/04\/cuffie.jpg",
+		"price": 150.0,
+		"name": "cuffie beats",
+		"link": "http:\/\/ecommerce.allindustries.it\/prodotto\/cuffie-beats\/",
+		"description": "akvbjlabdvlnsdlkvnlksnvkl",
+		"id": 32,
+		"categories": [{
+			"name": "accessori",
+			"id": 20
+		}, {
+			"name": "Accessori smathphone",
+			"id": 21
+		}, {
+			"name": "Elettronica",
+			"id": 17
+		}],
+		"stock": true,
+		"on_sale": false,
+		"status": "publish"
+	}, {
+		"short_description": "DANKBFJIASB OOIJSòDGL èBPOFJS",
+		"purchasable": true,
+		"images": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/04\/sony.jpg",
+		"price": 400.0,
+		"name": "SONY VAIO",
+		"link": "http:\/\/ecommerce.allindustries.it\/prodotto\/sony-vaio\/",
+		"description": "descizione lungabaid<jbv òfklabfklGAILCKSF<BVòKANS FòVMCA HM QO",
+		"id": 30,
+		"categories": [{
+			"name": "Computer",
+			"id": 19
+		}],
+		"stock": true,
+		"on_sale": false,
+		"status": "publish"
+	}, {
+		"short_description": "e morto",
+		"purchasable": true,
+		"images": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/04\/iphone3s.jpg",
+		"price": 300.0,
+		"name": "iphone 3s",
+		"link": "http:\/\/ecommerce.allindustries.it\/prodotto\/iphone-3s\/",
+		"description": "e sempaohsfd laflandkj fbcjkhbsavgn lnblnzlggbvajbhfvaal jnlbj",
+		"id": 28,
+		"categories": [{
+			"name": "Smartphone",
+			"id": 18
+		}],
+		"stock": false,
+		"on_sale": false,
+		"status": "publish"
+	}]
+}

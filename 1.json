@@ -1,0 +1,444 @@
+{
+	"categories": [{
+		"image": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/05\/cappelli.jpg",
+		"number_products": 7,
+		"name": "Cappelli",
+		"link": "http:\/\/ecommerce.allindustries.it\/wp-json\/wc\/v1\/products\/categories\/24",
+		"description": "Qui troverai tutto sui cappelli",
+		"id": 24
+	}, {
+		"image": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/05\/maglietta.jpg",
+		"number_products": 7,
+		"name": "Magliette",
+		"link": "http:\/\/ecommerce.allindustries.it\/wp-json\/wc\/v1\/products\/categories\/23",
+		"description": "Qui troverai tutte le magliette di cui avrai bisongo",
+		"id": 23
+	}, {
+		"image": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/05\/scarpe.jpg",
+		"number_products": 7,
+		"name": "Scarpe",
+		"link": "http:\/\/ecommerce.allindustries.it\/wp-json\/wc\/v1\/products\/categories\/22",
+		"description": "Qui troverai tutto sulle scarpe",
+		"id": 22
+	}],
+	"subcategories": [{
+		"parent": 24,
+		"image": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/05\/mm.jpg",
+		"number_products": 3,
+		"name": "Cappelli classici",
+		"link": "http:\/\/ecommerce.allindustries.it\/wp-json\/wc\/v1\/products\/categories\/29",
+		"description": "Collezione di cappelli eleganti",
+		"id": 29
+	}, {
+		"parent": 24,
+		"image": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/05\/aa.jpg",
+		"number_products": 3,
+		"name": "Cappelli colorati",
+		"link": "http:\/\/ecommerce.allindustries.it\/wp-json\/wc\/v1\/products\/categories\/30",
+		"description": "Raccolta cappelli colorati",
+		"id": 30
+	}, {
+		"parent": 23,
+		"image": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/05\/pooh.jpg",
+		"number_products": 3,
+		"name": "magliette band",
+		"link": "http:\/\/ecommerce.allindustries.it\/wp-json\/wc\/v1\/products\/categories\/28",
+		"description": "Raccolta di magliette delle tue band preferite!",
+		"id": 28
+	}, {
+		"parent": 23,
+		"image": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/05\/mgcolorate.jpg",
+		"number_products": 3,
+		"name": "Magliette colorate",
+		"link": "http:\/\/ecommerce.allindustries.it\/wp-json\/wc\/v1\/products\/categories\/27",
+		"description": "Categoria in cui ci sono tutte le magliette colorate!",
+		"id": 27
+	}, {
+		"parent": 22,
+		"image": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/05\/scapecalcio.jpg",
+		"number_products": 3,
+		"name": "Scarpe da calcio",
+		"link": "http:\/\/ecommerce.allindustries.it\/wp-json\/wc\/v1\/products\/categories\/25",
+		"description": "Qua troverai tutte le scarpe per il calcio!",
+		"id": 25
+	}, {
+		"parent": 22,
+		"image": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/05\/scarpedatennis.jpg",
+		"number_products": 3,
+		"name": "Scarpe da tennis",
+		"link": "http:\/\/ecommerce.allindustries.it\/wp-json\/wc\/v1\/products\/categories\/26",
+		"description": "Ecco tutte le scarpe da tennis ",
+		"id": 26
+	}],
+	"products": [{
+			"short_description": "Sandalo tacco medio in pelle metallizzata con ricamo",
+			"purchasable": true,
+			"images": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/05\/475082_B8B00_8016_001_081_0000_Light-Sandalo-tacco-medio-in-pelle-metallizzata-con-ricamo.jpg",
+			"link": "http:\/\/ecommerce.allindustries.it\/prodotto\/gucci-sandalo\/",
+			"description": "Sandalo tacco medio in pelle metallizzata con ricamo, pelle metallizzata color oro",
+			"price": 900.0,
+			"reduction_price": [{
+				"from": "2017-05-03",
+				"to": "2017-09-15",
+				"sale_price": 750.0,
+				"reduction_perc": 16.666666666666664
+			}],
+			"name": "Gucci Sandalo",
+			"id": 125,
+			"categories": [{
+				"name": "Scarpe",
+				"id": 22
+			}],
+			"stock": true,
+			"on_sale": true,
+			"status": "publish"
+		}, {
+			"short_description": "EVOTOUCH 1 FG MEN\u2019S FOOTBALL BOOTS",
+			"purchasable": true,
+			"images": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/05\/103672_05_sv01.jpg",
+			"price": 200.0,
+			"name": "Puma EVOTOUCH",
+			"link": "http:\/\/ecommerce.allindustries.it\/prodotto\/puma-evotouch\/",
+			"description": "evoTOUCH 1 FG Men's Football Boots: Engineered for touch is the new PUMA evoTOUCH 1. Its super soft calf leather offers an excellent touch to the ball in all conditions, with the evoKNIT sock construction creating a supportive barefoot feel and supreme comfort. The internal GripTex technology ensures optimal grip and avoids slipping inside the shoe. The new tooling features a Speedtrack spine for enhanced reactivity and torsional stability, while the conical studs guarantee excellent ground penetration and stability on firm ground.",
+			"id": 123,
+			"categories": [{
+				"name": "Scarpe da calcio",
+				"id": 25
+			}],
+			"stock": true,
+			"on_sale": false,
+			"status": "publish"
+		}, {
+			"short_description": "Speed IGNITE NETFIT Women\u2019s Running Shoes",
+			"purchasable": true,
+			"images": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/05\/189938_06_sv01.jpg",
+			"price": 140.0,
+			"name": "Puma IGNITE NETFIT",
+			"link": "http:\/\/ecommerce.allindustries.it\/prodotto\/puma-ignite-netfit\/",
+			"description": "More speed, more comfort. PUMA's fastest running shoe to date is infused with pinnacle performance features while maintaining a super light weight. The brand-new NETFIT cage enables you to customize your fit by lacing whichever way best suits your foot type for a more secure and comfortable fit. The dual-layer midsole infused with IGNITE provides longer lasting cushioning and responsiveness. The engineered forefoot Propulsion Zone in the outsole propels you forwards, providing a powerful, snappy toe-off that increases stride length and speed.",
+			"id": 121,
+			"categories": [{
+				"name": "Scarpe da tennis",
+				"id": 26
+			}],
+			"stock": true,
+			"on_sale": false,
+			"status": "publish"
+		}, {
+			"short_description": "SCARPE ADIZERO ADIOS 3",
+			"purchasable": true,
+			"images": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/05\/BA7949_01_standard.jpg",
+			"price": 149.95,
+			"name": "Adidas Adizero",
+			"link": "http:\/\/ecommerce.allindustries.it\/prodotto\/adidas-adizero\/",
+			"description": "Alcuni runner si accontentano di una corsetta poco impegnativa. Tu preferisci la velocità. Queste scarpe da uomo presentano un design leggero e scattante pensato per il giorno della gara: sono dotate di intersuola boost™ che garantisce un incredibile ritorno di energia e di una tomaia in open mesh rivestito che offre un supporto leggero e traspirante. La tecnologia TORSION® SYSTEM offre una stabilità mirata, mentre la suola in gomma resistente assicura aderenza su superfici asciutte o scivolose.",
+			"id": 119,
+			"categories": [{
+				"name": "Scarpe da tennis",
+				"id": 26
+			}],
+			"stock": true,
+			"on_sale": false,
+			"status": "publish"
+		}, {
+			"short_description": "NIKE FREE RN MOTION FLYKNIT 2017",
+			"purchasable": true,
+			"images": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/05\/scarpa-da-running-free-rn-motion-flyknit-2017.jpg",
+			"price": 149.99,
+			"name": "NIKE FLYKNIT",
+			"link": "http:\/\/ecommerce.allindustries.it\/prodotto\/nike-flyknit\/",
+			"description": "La scarpa da running Nike Free RN Motion Flyknit 2017 - Uomo è dotata di una suola incredibilmente flessibile per movimenti naturali e di un rivoluzionario sistema a doppia fascetta per un comfort senza lacci.",
+			"id": 117,
+			"categories": [{
+				"name": "Scarpe da tennis",
+				"id": 26
+			}],
+			"stock": true,
+			"on_sale": false,
+			"status": "publish"
+		}, {
+			"short_description": "NIKE HYPERVENOM PHANTOM 3 SG-PRO ANTI-CLOG",
+			"purchasable": true,
+			"images": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/05\/scarpa-da-calcio-per-terreni-morbidi-hypervenom-phantom-3-sg-pro-ac.jpg",
+			"link": "http:\/\/ecommerce.allindustries.it\/prodotto\/nike-hypervenom\/",
+			"description": "Studiata per l'attaccante più audace, la scarpa da calcio per terreni morbidi Nike Hypervenom Phantom 3 SG-PRO AC è pensata per incrementare la velocità del tiro e assicurare cambi di direzione rapidi sui campi umidi e fangosi.",
+			"price": 252.0,
+			"reduction_price": [{
+				"from": "2017-05-03",
+				"to": "2017-08-12",
+				"sale_price": 180.99,
+				"reduction_perc": 28.178571428571423
+			}],
+			"name": "NIKE HYPERVENOM",
+			"id": 115,
+			"categories": [{
+				"name": "Scarpe da calcio",
+				"id": 25
+			}],
+			"stock": true,
+			"on_sale": true,
+			"status": "publish"
+		}, {
+			"short_description": "SCARPE DA CALCIO ACE 17+ PURECONTROL FIRM GROUND",
+			"purchasable": true,
+			"images": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/05\/BB5950_01_standard.jpg",
+			"price": 299.95,
+			"name": "Adidas ACE17+ PURECONTROL",
+			"link": "http:\/\/ecommerce.allindustries.it\/prodotto\/adidas-ace17-purecontrol\/",
+			"description": "Detta il gioco. Orchestra le azioni. Il campo da calcio è il tuo regno e nessuno può togliertelo. Con ACE 17 sei tu a dominare la partita. Queste scarpe sono dotate di tomaia adidas Primeknit senza lacci, che garantisce controllo e comfort ideali. La suola è pensata per le superfici compatte.",
+			"id": 113,
+			"categories": [{
+				"name": "Scarpe da calcio",
+				"id": 25
+			}],
+			"stock": true,
+			"on_sale": false,
+			"status": "publish"
+		}, {
+			"short_description": "Polo Polo Ralph Lauren estiva blu costosissima",
+			"purchasable": true,
+			"images": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/05\/pPOLO2-26015761_alternate2_v400.jpg",
+			"price": 195.0,
+			"name": "Polo Ralph Lauren",
+			"link": "http:\/\/ecommerce.allindustries.it\/prodotto\/polo-ralph-lauren\/",
+			"description": "Ralph Lauren debuted his original Polo shirt in 1972, and today the iconic design is offered in a wide array of colors and fits. This roomy version is indigo-dyed and stone-washed to achieve an ombré effect.",
+			"id": 111,
+			"categories": [{
+				"name": "Magliette",
+				"id": 23
+			}],
+			"stock": true,
+			"on_sale": false,
+			"status": "publish"
+		}, {
+			"short_description": "Maglietta gialla unisex per bambini in cotone 100%",
+			"purchasable": true,
+			"images": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/05\/magliette-gialle-16155f34.jpg",
+			"price": 2.99,
+			"name": "Maglietta gialla",
+			"link": "http:\/\/ecommerce.allindustries.it\/prodotto\/maglietta-gialla\/",
+			"description": "Magliette colorate unisex per bambini in cotone 100% pettinato da gr. 140, in colori reattivi, girocollo a costina rinforzata, ribattitura a doppio ago su collo, maniche e orlo con nastro di rinforzo interno. Taglie disponibili:XS (14 anni) \/ XXS (12 anni) \/ XXXS (8-10 anni) \/ XXXXS (6 anni).",
+			"id": 109,
+			"categories": [{
+				"name": "Magliette colorate",
+				"id": 27
+			}],
+			"stock": true,
+			"on_sale": false,
+			"status": "publish"
+		}, {
+			"short_description": "Magliette blu unisex per bambini",
+			"purchasable": true,
+			"images": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/05\/magliette-azzurre-779a5fc9.jpg",
+			"price": 3.99,
+			"name": "Maglietta blu",
+			"link": "http:\/\/ecommerce.allindustries.it\/prodotto\/maglietta-blu\/",
+			"description": "Magliette colorate unisex per bambini in cotone 100% pettinato da gr. 140, in colori reattivi, girocollo a costina rinforzata, ribattitura a doppio ago su collo, maniche e orlo con nastro di rinforzo interno. Taglie disponibili:XS (14 anni) \/ XXS (12 anni) \/ XXXS (8-10 anni) \/ XXXXS (6 anni).",
+			"id": 107,
+			"categories": [{
+				"name": "Magliette colorate",
+				"id": 27
+			}],
+			"stock": true,
+			"on_sale": false,
+			"status": "publish"
+		}, {
+			"short_description": "MAGLIETTA CLASSIC COLORATA MANICA CORTA",
+			"purchasable": true,
+			"images": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/05\/images.jpg",
+			"price": 4.99,
+			"name": "Maglietta arancione",
+			"link": "http:\/\/ecommerce.allindustries.it\/prodotto\/maglietta-arancione\/",
+			"description": "T-shirt a girocollo con maniche corte. Collo in costina con fettuccia interna per un maggior comfort, cucitura con doppio ago su collo, maniche e girovita. Il tessuto è sottoposto ad un trattamento di pre-lavaggio che evita il restringimento del cotone.",
+			"id": 105,
+			"categories": [{
+				"name": "Magliette colorate",
+				"id": 27
+			}],
+			"stock": true,
+			"on_sale": false,
+			"status": "publish"
+		},
+		{
+			"short_description": "T-shirt Guns N\u2019 Roses Circle Logo da donna",
+			"purchasable": true,
+			"images": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/05\/T-shirt-Guns-N-Roses-T-shirt-Guns-N-Roses-Circle-Logo-da-donna-l.jpg",
+			"price": 28.56,
+			"name": "T-shirt Guns N' Roses",
+			"link": "http:\/\/ecommerce.allindustries.it\/prodotto\/t-shirt-guns-n-roses\/",
+			"description": "T-shirt Guns N' Roses Circle Logo da donna. Nera con stampa frontale. Tessuto: cotone. Prodotto ufficiale",
+			"id": 103,
+			"categories": [{
+				"name": "magliette band",
+				"id": 28
+			}],
+			"stock": true,
+			"on_sale": false,
+			"status": "publish"
+		},
+		{
+			"short_description": "T-shirt Jimi Hendrix Script Circle",
+			"purchasable": true,
+			"images": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/05\/T-shirt-Jimi-Hendrix-T-shirt-Jimi-Hendrix-Script-Circle-l.jpg",
+			"price": 17.56,
+			"name": "T-shirt Jimi Hendrix",
+			"link": "http:\/\/ecommerce.allindustries.it\/prodotto\/t-shirt-jimi-hendrix\/",
+			"description": "T-shirt Jimi Hendrix Script Circle. Nera con stampa sul petto. Tessuto: Cotone. Manica corta. Prodotto ufficiale",
+			"id": 101,
+			"categories": [{
+				"name": "magliette band",
+				"id": 28
+			}],
+			"stock": true,
+			"on_sale": false,
+			"status": "publish"
+		},
+		{
+			"short_description": "Cappello ufficiale Juventus bianco",
+			"purchasable": true,
+			"images": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/05\/18720_adidas-juventus-anthem-cap-white_02.jpg",
+			"price": 25.0,
+			"name": "Cappello Juventus",
+			"link": "http:\/\/ecommerce.allindustries.it\/prodotto\/cappello-juventus\/",
+			"description": "Modello con visiera Collezione Adidas 2016\/2017 Colore bianco Larghezza, regolabile Logo squadra in ricamo, Prodotto ufficiale",
+			"id": 99,
+			"categories": [{
+				"name": "Cappelli",
+				"id": 24
+			}],
+			"stock": true,
+			"on_sale": false,
+			"status": "publish"
+		},
+		{
+			"short_description": "T-shirt Pink Floyd Dark Side of the Moon",
+			"purchasable": true,
+			"images": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/05\/T-shirt-Pink-Floyd-T-shirt-Pink-Floyd-Dark-Side-of-the-Moon-l.jpg",
+			"link": "http:\/\/ecommerce.allindustries.it\/prodotto\/t-shirt-pink-floyd\/",
+			"description": "T-shirt Pink Floyd Dark Side of the Moon. Nera con stampa sul petto. Tessuto: Cotone. Manica corta. Prodotto ufficiale",
+			"price": 30.0,
+			"reduction_price": [{
+				"from": "2017-05-01",
+				"to": "2017-07-30",
+				"sale_price": 17.56,
+				"reduction_perc": 41.46666666666667
+			}],
+			"name": "T-shirt Pink Floyd",
+			"id": 97,
+			"categories": [{
+				"name": "magliette band",
+				"id": 28
+			}],
+			"stock": true,
+			"on_sale": true,
+			"status": "publish"
+		},
+		{
+			"short_description": "Cappello Di Moda Per Donna Inverno Vuoto Capelli",
+			"purchasable": true,
+			"images": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/05\/51hu03g9GL._SL1001_.jpg",
+			"price": 16.78,
+			"name": "Berretto da golf",
+			"link": "http:\/\/ecommerce.allindustries.it\/prodotto\/berretto-da-golf\/",
+			"description": "FATHER' S DAY Best gift Strillone Flatcap anticata, gentleman cappello, cappelli Cabbie, driver, caccia cappello, berretto da golf, Denim in cotone e nuovi trend Fashion, Irish Golf cappello piatto, caccia driver, Cap, berretto piatto, cappellino, Traspirante e confortevole adatto per normale Medium testa, Da uomo sport all' aperto meglio scegliere, non perdere, Idea regalo per la festa del papà o compleanno, compralo subito",
+			"id": 95,
+			"categories": [{
+				"name": "Cappelli colorati",
+				"id": 30
+			}],
+			"stock": true,
+			"on_sale": false,
+			"status": "publish"
+		},
+		{
+			"short_description": "Cappellino da baseball 5 Chiusura a strappo unisex misura tanti colori \u2013 Unisex, Cotone, Arancione",
+			"purchasable": true,
+			"images": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/05\/41DyghUj1cL.jpg",
+			"price": 15.9,
+			"name": "Cappello arancione",
+			"link": "http:\/\/ecommerce.allindustries.it\/prodotto\/cappello-arancione\/",
+			"description": "Cappellino da baseball 5 Chiusura a strappo unisex misura tanti colori - Unisex, Cotone, Arancione 5-Panel Cap di alta qualità, 100% Cotone, Chiusura a velcro ,unica taglia, molti colori",
+			"id": 93,
+			"categories": [{
+				"name": "Cappelli colorati",
+				"id": 30
+			}],
+			"stock": true,
+			"on_sale": false,
+			"status": "publish"
+		},
+		{
+			"short_description": "Under Armour Blitzing II Capella Da Corsa \u2013 SS17",
+			"purchasable": true,
+			"images": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/05\/blu.jpg",
+			"price": 23.45,
+			"name": "CAPPELLO BLUE",
+			"link": "http:\/\/ecommerce.allindustries.it\/prodotto\/cappello-blue\/",
+			"description": "cappello di colore blu con stemma di colore nero, fatto di tela e tessuto sintetico",
+			"id": 91,
+			"categories": [{
+				"name": "Cappelli colorati",
+				"id": 30
+			}],
+			"stock": true,
+			"on_sale": false,
+			"status": "publish"
+		},
+		{
+			"short_description": "Il distinto cappello in feltro di lana di alta qualità in passato era il classico copricapo dei gentiluomini.",
+			"purchasable": true,
+			"images": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/05\/cappello-a-tre-punte-cappello-feltro-di-lana-cappelli-feltro-di-lana-cappello-di-feltro.40019_tf4.jpg",
+			"price": 149.0,
+			"name": "Cappello a Tre Punte",
+			"link": "http:\/\/ecommerce.allindustries.it\/prodotto\/cappello-a-tre-punte\/",
+			"description": "Sangue blu. Il distinto cappello in feltro di lana di alta qualità in passato era il classico copricapo dei gentiluomini. La tesa rialzata su tre lati dona al tricorno la sua forma inconfondibile e la sua dignità. Made in Germany.",
+			"id": 89,
+			"categories": [{
+				"name": "Cappelli classici",
+				"id": 29
+			}],
+			"stock": true,
+			"on_sale": false,
+			"status": "publish"
+		},
+		{
+			"short_description": "CAPPELLO CLASSICI ESTIVI",
+			"purchasable": true,
+			"images": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/05\/Cappelli-classici-estivi-Summer-classic-hats_RESIZE_2911.jpg",
+			"price": 19.99,
+			"name": "Paglietta estiva",
+			"link": "http:\/\/ecommerce.allindustries.it\/prodotto\/paglietta-estiva\/",
+			"description": "  Cappelli classici uomo in Dralon, paglia o altro materiale traspirante",
+			"id": 87,
+			"categories": [{
+				"name": "Cappelli classici",
+				"id": 29
+			}],
+			"stock": true,
+			"on_sale": false,
+			"status": "publish"
+		}, {
+			"short_description": "Bombetta  di colore nero",
+			"purchasable": true,
+			"images": "http:\/\/ecommerce.allindustries.it\/wp-content\/uploads\/2017\/05\/Bombetta-nera.jpg",
+			"link": "http:\/\/ecommerce.allindustries.it\/prodotto\/bombetta-nera\/",
+			"description": "Cappello bombetta in pelle di colore nero",
+			"price": 50.99,
+			"reduction_price": [{
+				"from": "2017-05-02",
+				"to": "2017-06-21",
+				"sale_price": 34.45,
+				"reduction_perc": 32.437732888801726
+			}],
+			"name": "Bombetta nera",
+			"id": 85,
+			"categories": [{
+				"name": "Cappelli classici",
+				"id": 29
+			}],
+			"stock": true,
+			"on_sale": true,
+			"status": "publish"
+		}
+	]
+}
